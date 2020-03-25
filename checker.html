@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+  <head>
+
+     <meta charset="utf-8">
+     <title>Moja witryna</title>
+
+     <meta name="description" content="Opis zawartości strony dla wyszukiwarek">
+     <meta name="keywords" content="słowa, kluczowe, opisujące, zawartość">
+     <meta name="author" content="Jan Programista">
+
+     <meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+     <link rel="stylesheet" href="style.css" type="text/css">
+     
+
+  </head>
+  <body bgcolor="#76776C">
+  <div id="absolute">
+  <div id="center">
+       <h1>Kalkulator równań kwadratowych</h1>
+	   <div id="numbers">
+	    <button class="button1" onclick="location.reload()">Odśwież</button>
+	   <input type="text" id="field1" size="1" placeholder="a" maxlength="3"> x &sup2;
+	   <input type="text" id="field3" size="1" placeholder="b" maxlength="3"> x +
+	   <input type="text" id="field4" size="1" placeholder="c" maxlength="3">
+	   
+       <select id="znaki">
+	   <option value="znak">Znak</option>
+	   <option value="≥">≥</option>
+	   <option value=">">></option>
+	   <option value="<"><</option>
+	   <option value="≤">≤</option>
+	   <option value="=">=</option>
+	   </select>
+	   
+	   <input type="text" id="field5" size="1" maxlength="3">
+	   <button class="button1" onclick="sprawdz()">Sprawdź</button>
+	   </div>
+	   <div id="result">
+	   Wynik =
+	   </div>
+	   
+	   <div id="graphic">
+	   </div>
+	   
+	   <div id="reload">
+	   
+	   </div>
+ </div>  
+</div> 
+  </body>
+<script type="text/javascript" src="checker.js"></script>
+</html>

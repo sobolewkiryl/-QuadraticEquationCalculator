@@ -1,0 +1,51 @@
+body{
+	background-image:url("bananas.png");
+	/* Background pattern from Toptal Subtle Patterns */
+	font-size:20px;
+}
+#center{
+   width:500px;
+   height:500px;
+   top:30%;
+   left:40%;
+   position:absolute;
+   text-align:center;
+   background-color: #C6E7E1;
+   	-webkit-box-shadow: 5px 5px 77px -12px rgba(0,0,0,0.84);
+    -moz-box-shadow: 5px 5px 77px -12px rgba(0,0,0,0.84);
+     box-shadow: 5px 5px 77px -12px rgba(0,0,0,0.84);
+}
+#result{
+	margin-top:50px;
+	text-align:left;
+	border: solid 1px;
+	margin-left:20px;
+	margin-right:20px;
+	   top:30%;
+   left:40%;
+}
+#graphic{
+	margin-top:50px;
+	margin-left:20px;
+	margin-right:20px;
+	margin-bottom:30px;
+}
+#reload{
+	margin-top:50px;
+	text-align:left;
+	margin-left:20px;
+	margin-right:20px;
+}
+.button1{
+	padding:5px;
+	border-radius:5px;
+}
+button:hover{
+	background-color:black;
+	color: darkgrey;
+}
+input{
+	border-radius:5px;
+	font-size:15px;
+	height:22px;
+}
